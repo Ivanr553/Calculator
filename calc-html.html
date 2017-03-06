@@ -1,0 +1,43 @@
+<body>
+  <center><div id="calc-body">
+    <div id="screen-container">
+      <textarea id="screen"></textarea>
+    </div>
+    <div>
+    <span id="logo">FreeCodeCamp Calculator</span>
+    <span id="version">V 2.27</span>
+    </div>
+    <br><div id="button-row-clear">
+      <b><div id="on-off">On/Off</div>
+        <div id="clear" onclick="cleard()">Clear</div>
+    </div>
+    <br>
+    <div class="button-row">
+      <div class="button" id="button-7" onclick="seven(d, t)">7</div>
+      <div class="button" id="button-8" onclick="eight(d, t)">8</div>
+      <div class="button" id="buton-9" onclick="nine(d, t)">9</div>
+      <div class="button2" id="button-percent" onclick="percent(d, e)">%</div>
+      <div class="button2" id="button-sqrt" onclick="sqrt(d)">&radic;</div>
+    </div>
+    <div class="button-row">
+      <div class="button" id="button-4" onclick="four(d, t)">4</div>
+      <div class="button" id="button-5" onclick="five(d, t)">5</div>
+      <div class="button" id="button-6" onclick="six(d, t)">6</div>
+      <div class="button2" id="button-mult" onclick="multiply(d, e)">X</div>
+      <div class="button2" id="button-divide" onclick="divide(d, e)">/</div>
+    </div>
+    <div class="button-row">
+      <div class="button" id="button-1" onclick="one(d, t)">1</div>
+      <div class="button" id="button-2" onclick="two(d, t)">2</div>
+      <div class="button" id="button-3" onclick="three(d, t)">3</div>
+      <div class="button2" id="button-sub" onclick="subtract(d, e)">-</div>
+    </div>
+    <div id="button-row-3">
+      <div class="button" id="button-0" onclick="zero(d, t)">0</div>
+      <div class="button" id="button-per" onclick="period(d, t)">.</div>
+      <div class="button" id="button-pm" onclick="negative()">+/-</div>
+      <div class="button2" id="button-equal" onclick="equal(d, e)">=</div>
+    </div>
+    <div class="button2" id="button-add-extra" onclick="add(d, e)">+</div>
+  </div></center>
+</body>
