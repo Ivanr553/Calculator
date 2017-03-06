@@ -1,0 +1,140 @@
+body {
+  background: url(http://trickvilla.com/wp-content/uploads/Light-Wood-Background.jpg);
+}
+#calc-body {
+  margin-top: 70px;
+  background-color: rgba(26, 144, 255, 0.15);
+  width: 500px;
+  height: 410px;
+  border-radius: 15px;
+  padding-top: 25px;
+  position: relative;
+ box-shadow: 0px 0px 25px 5px black, inset 0px 0px 10px 6px rgba(0, 119, 230, 0.1);
+}
+#screen-container {
+  width: 410px;
+  height: 75px;
+  background-color: black;
+  border-radius: 20px;
+}
+#screen {
+  width: 350px;
+  height: 50px;
+  margin-top: 9px;
+  margin-bottom: 25px;
+  resize: none;
+  border-radius: 10px;
+  font-size: 40px;
+  text-align: right;
+  overflow: hidden;
+  background: rgba(144,238,144, 1);
+  color: rgba(0, 0, 0, .7);
+}
+#on-off {
+  width: 60px;
+  height: 20px;
+  padding: 10px;
+  background-color: rgba(255, 26, 26, 1);
+  float: right;
+  border-radius: 12px;
+  margin-right: 26px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px -1px black, inset 0px 0px 10px 0px grey;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+}
+#clear {
+ width: 60px;
+  height: 20px;
+  padding: 10px;
+  background-color: rgba(255, 26, 26, 1);
+  float: right;
+  border-radius: 12px;
+  margin-right: 11px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px -1px black, inset 0px 0px 10px 0px grey;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+}
+#button-row-clear {
+  margin-top: 30px;
+}
+.button-row {
+  margin-top: 30px;
+  margin-left: 21px;
+ }
+#button-row-3 {
+  margin-top: 0px;
+  margin-left: 21px;
+ }
+.button {
+  width: 60px;
+  height: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  float: left;
+  margin: 1%;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.6);
+  border-width: 1px;
+  box-shadow: 0px 0px 10px -1px black, inset 0px 0px 10px 0px grey;
+}
+.button2 {
+  width: 60px;
+  height: 20px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+  float: left;
+  margin: 5px;
+  font-weight: bold;
+  border-radius: 12px;
+  color: white;
+  cursor: pointer;
+  border-style: solid;
+  border-color: rgba(10, 10, 10, 0.1);
+  border-width: 1px;
+  box-shadow: 0px 0px 10px -1px grey, inset 0px 0px 10px 0px rgba(150, 150, 150, 0.5);
+}
+#button-divide {
+  font-size: 20px;
+  padding-top: 8px;
+  padding-bottom: 12px;
+}
+#button-per {
+  font-size: 30px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+#button-equal {
+  margin-left: 95px;
+}
+#button-sub {
+    margin-left: 95px;
+}
+#button-add-extra {
+  position: absolute;
+  left: 295px;
+  top: 300px;
+  height: 50px;
+  padding-top: 33px;
+  font-size: 24px;
+}
+#logo {
+  font-size: 28px;
+  font-family: "Brush Script MT", cursive;
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+#version {
+  position: absolute;
+  top: 156px;
+  left: 195px;
+  font-size: 18px;
+}
